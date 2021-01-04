@@ -216,7 +216,14 @@ form {
     padding: 4%;
     border: 1px solid black;
     border-radius: 5px;
+    background-color: #ff3f3f;
+    color: white;
+}
 
+.submit:hover {
+    background-color: white;
+    color: #ff3f3f;
+    box-shadow: 2px 4px 10px 3px black;
 }
 
 footer {
@@ -273,8 +280,12 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        ;
+
         justify-content: space-between;
+    }
+
+    #works img:hover {
+        transform: scale(2.5);
     }
 
     .work {
